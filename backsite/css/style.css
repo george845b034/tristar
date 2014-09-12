@@ -1,0 +1,68 @@
+legend, .hr 
+{
+	color: #29587f;
+	border-bottom: 1px solid #ccc;
+}
+h5
+{
+	font-weight: bold;
+}
+
+.pagination-centered
+{
+	display: table;
+    margin: 0 auto;
+}
+.height50 
+{
+	height: 50px;
+}
+.height20 
+{
+	height: 20px;
+}
+.clear 
+{
+	clear: both;
+}
+.error
+{
+	color: red;
+}
+.cursor
+{
+	cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus 
+{
+	background-color: #7A7A7A;
+	border-color: #D1D1D1;
+}
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.btn-custom {
+	background-color: hsl(0, 0%, 16%) !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5b5b5b", endColorstr="#282828");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#5b5b5b), to(#282828));
+	background-image: -moz-linear-gradient(top, #5b5b5b, #282828);
+	background-image: -ms-linear-gradient(top, #5b5b5b, #282828);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5b5b5b), color-stop(100%, #282828));
+	background-image: -webkit-linear-gradient(top, #5b5b5b, #282828);
+	background-image: -o-linear-gradient(top, #5b5b5b, #282828);
+	background-image: linear-gradient(#5b5b5b, #282828);
+	border-color: #282828 #282828 hsl(0, 0%, 11%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+	-webkit-font-smoothing: antialiased;
+}
+.accordion-heading .accordion-toggle {
+	display: block;
+	padding: 8px 15px;
+}
+.ui-pnotify-history-container {
+	display: none;
+}

@@ -1,0 +1,36 @@
+legend, .hr 
+{
+	color: #29587f;
+	border-bottom: 1px solid #ccc;
+}
+h5
+{
+	font-weight: bold;
+}
+
+.pagination-centered
+{
+	display: table;
+    margin: 0 auto;
+}
+.height50 
+{
+	height: 50px;
+}
+.height20 
+{
+	height: 20px;
+}
+.clear 
+{
+	clear: both;
+}
+.cursor
+{
+	cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus 
+{
+	background-color: #7A7A7A;
+	border-color: #D1D1D1;
+}

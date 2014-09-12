@@ -1,0 +1,196 @@
+.navbar-inverse {
+	background-color: #1b1b1b;
+	background-image: -moz-linear-gradient(top, #000000, #3D3030);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#3D3030));
+	background-image: -webkit-linear-gradient(top, #000000, #3D3030);
+	background-image: -o-linear-gradient(top, #000000, #3D3030);
+	background-image: linear-gradient(to bottom, #000000, #3D3030);
+	background-repeat: repeat-x;
+	border-color: #252525;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff000000', endColorstr='#ff3D3030', GradientType=0);
+}
+
+.logo {
+	float: left;
+	margin: 5px 10px 0 0;
+}
+
+.navbar-inner {
+	min-height: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.search_block {
+	max-width: 1015px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+select,
+input[type="file"] {
+  height: 30px;
+  /* In IE7, the height of the select element cannot be changed by height, only font-size */
+
+  *margin-top: 4px;
+  /* For IE7, add top margin to align select with labels */
+
+  line-height: 30px;
+}
+
+select {
+	width: 220px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	
+	padding: 4px 6px;
+	-webkit-appearance: menulist;
+	box-sizing: border-box;
+	align-items: center;
+	border: 1px solid;
+	white-space: pre;
+	-webkit-rtl-ordering: logical;
+	color: #555555;
+	vertical-align: middle;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+input[type="text"]{
+	padding: 4px 6px;
+	line-height: 20px;
+	color: #555555;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+form {
+	margin: 0 0 20px;
+}
+
+[class*="span"] {
+	margin-left: 5px;
+	float: left;
+}
+
+.container {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.form-search .input-append .search-query {
+	-webkit-border-radius: 14px 0 0 14px;
+	-moz-border-radius: 14px 0 0 14px;
+	border-radius: 14px 0 0 14px;
+}
+
+.form-search .input-append .btn {
+	-webkit-border-radius: 0 14px 14px 0;
+	-moz-border-radius: 0 14px 14px 0;
+	border-radius: 0 14px 14px 0;
+	margin-left: -1px;
+	
+	display: inline-block;
+	padding: 4px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	border: 1px solid #cccccc;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-bottom-color: #b3b3b3;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+input.search-query {
+	padding-right: 14px;
+	padding-right: 4px \9;
+	padding-left: 14px;
+	padding-left: 4px \9;
+	margin-bottom: 0;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.input-small {
+	width: 115px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	border-color: rgba(82, 168, 236, 0.8);
+	outline: 0;
+	outline: thin dotted \9;
+	/* IE6-9 */
+
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+/* 
+.alert
+{
+	width: 400px;
+	position: absolute;
+	z-index: 100;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+} */
